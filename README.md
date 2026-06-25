@@ -1,6 +1,6 @@
 # App URL
 
-https://milkovsky.github.io/hitster/
+https://saemi-li.github.io/Hits-da-Linnea/
 
 # Autoplays Spotify tracks by uri
 
