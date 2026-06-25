@@ -5,11 +5,11 @@ namespace milkovsky\hitster;
 class SpotifyParser {
 
     public static function isSongUrl(string $url): string {
-        return preg_match('~^https://open.spotify.com/track/([^?]+)\?si=~', $url);
+        return preg_match('~^https://open.spotify.com/track/([^?]+)~', $url);
     }
 
     public static function getSongId(string $url): string {
-        if (!preg_match('~^https://open.spotify.com/track/([^?]+)\?si=~', $url, $matches)) {
+        if (!preg_match('~^https://open.spotify.com/track/([^?]+)~', $url, $matches)) {
             throw new \Exception('Invalid URL ' .  $url);
         }
         return $matches[1];

@@ -105,7 +105,7 @@ $songs = Songs::getSongs();
                     </div>
                     <div class="divider"></div>
                     <div class="card qr">
-                        <img class="vladi" src="img/vladi.webp" alt="The Vladi Rocks" height="50"/>
+                        <img class="vladi" src="img/discoball.png" alt="The Vladi Rocks" height="50"/>
                         <img class="qr-code" src="codes/<?= QrCodeGenerator::fixFileName(Songs::getSongName($song)) ?>.png" alt="<?= Songs::getSongName($song) ?>"></div>
                 </div>
         <?php if ($count === 2 || $count === 4): ?></div><?php endif ?>
