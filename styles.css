@@ -365,44 +365,20 @@ body {
 
 /* End Play button */
 
-/* ---------- Logo ---------- */
-
 .logo {
-    margin: 0 0 20px;
-    font-size: 64px;
-    font-weight: 900;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-
-    color: #ffffff;
+    font-family: 'Monoton', cursive;
+    font-size: clamp(40px, 10vw, 72px);
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0 0 15px;
+    color: white;
+    line-height: 1.1;
 
     text-shadow:
-        0 0 6px #ffffff,
-        0 0 12px #00e5ff,
-        0 0 25px #00e5ff,
-        0 0 45px #ff00cc,
-        0 0 70px #ff00cc;
+        0 0 4px #fff,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #ff00cc;
 
     animation: glow 2.5s ease-in-out infinite alternate;
 }
-
-@keyframes glow {
-
-    from {
-        text-shadow:
-            0 0 6px #ffffff,
-            0 0 12px #00e5ff,
-            0 0 25px #00e5ff,
-            0 0 45px #ff00cc;
-    }
-
-    to {
-        text-shadow:
-            0 0 8px #ffffff,
-            0 0 18px #00ffff,
-            0 0 35px #00ffff,
-            0 0 60px #ff00cc,
-            0 0 90px #ff00cc;
-    }
-}
-/* end ---------- Logo ---------- */
