@@ -71,7 +71,7 @@
       };
     }
     else {
-      document.getElementById('message').textContent = 'Start by scanning QR-Code';
+      document.getElementById('message').textContent = 'Zum Starten QR-Button drücken';
       document.getElementById('welcome').style.display = 'block';
     }
 
